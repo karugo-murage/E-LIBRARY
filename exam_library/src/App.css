@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  font-family: 'Ubuntu';
+  background-color: rgb(233, 233, 233);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.examined-units{
+  background-color: silver;
+  width: 17%;
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  padding: .5rem;
+  margin: 0rem;
+  font-weight: 300;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  margin: 1rem;
   display: flex;
+  justify-content: space-around;
+  height: 10vh;
+}
+.success{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 30%;
+  font-style: oblique;
+  font-weight:400 ;
+}
+.theme{
+  
+  margin: 4rem 3rem 2rem 3rem;
+  padding-left: 1rem;
+}
+.motto{
+  font-weight: 420;
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}
+.mantra{
+  font-weight: 450;
+  font-size: xx-large;
+}
+.quote-section{
+  border-bottom: 0.5rem solid grey;
+  box-shadow: 3px 2px silver;
+  width: 80%;
+  margin: 1.5rem 3rem 1rem 3rem;
+  padding: 0.5rem 1rem;
+
+}
+.post{
+  margin: 1.5rem 3rem 1rem 3rem;
+  
+}
+.post-tag{
+  padding: 0rem 0.5rem;
+  font-weight:420;
+}
+.posts-section{
+  padding: 0rem 5rem;
+  font-weight: 430;
+  font-size: larger;
+  font-style: italic;
+  color: black;
+}
+.comments{
+  margin: 1.5rem 3rem 1rem 3rem;
+  padding: 1rem 0.5rem;
+}
+.comment-box{
+  padding: 0.5rem 2rem;
+  font-size: larger;
+  font-weight: 400;
+  box-shadow: 3px 3px silver;
+  color: black;
+}
+.comment-post{
+  padding: 0.5rem 1rem;
+  font-size: larger;
+  margin-left: 2rem;
+}
+.footer{
+  background-color: silver;
+  color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body-exam{
+  margin: 3rem 5rem 3rem 1rem;
+}
+.button{
+  background-color: silver;
+  width: 7.8rem;
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  font-weight: 300;
+
+}
+.about_us{
+  background-color: silver;
+  color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mission_vision{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.image_values{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.mission_container{
+  border-bottom: 0.5rem solid grey;
+  box-shadow: 3px 2px silver;
+  margin: 1rem 3rem;
+  padding: 1rem 3rem;
+}
+.mission{
+  font-weight: 500;
+  font-size: x-large;
+}
+.vision_container{
+  border-bottom: 0.5rem solid grey;
+  box-shadow: 3px 2px silver;
+  margin: 1rem 3rem;
+  padding: 1rem 3rem;
+  
+}
+.vision{
+  font-weight: 500;
+  font-size: x-large;
+}
+li{
+  margin-bottom:1rem ;
+  list-style-type: square;
+}
+.hear{
+  background-color: silver;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: xx-large;
+
+}
+.feedback{
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_contact{
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 2px 3px silver;
+}
+.input_send{
+  padding: 0.4rem;
+  margin-top: 1rem;
+  background-color: silver;
+  border: 2px solid grey;
+  box-shadow: 3px 4px silver;
+  
+}
+.free{
+  font-size: larger;
+}
+.routes_nav{
+  background-color: silver;
+  font-size: larger;
+  border: 1px solid grey;
+  padding: 1rem;
+  width: 50rem;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+  padding: .5rem 3rem 1rem 3rem;
+  
+}
+.navlink_bar{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
