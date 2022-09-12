@@ -13,8 +13,6 @@ Thus allowing for an iterative process that uses user feedback to enable other u
 
 The web application also provides motivational quotes to inspire the users to keep pushing on in their programming journey.
 
-https://brilliant-cobbler-214900.netlify.app/
-
  
 ## Screenshot
 
@@ -64,6 +62,8 @@ https://brilliant-cobbler-214900.netlify.app/
 - React.js
 - CSS
 - Markdown
+- Ruby
+- API(Sinatra)
 
 ## Support and contact details
 
