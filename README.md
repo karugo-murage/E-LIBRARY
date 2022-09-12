@@ -7,7 +7,7 @@
 
  ## Description
 
-Excel-in-your-exams is a web based application that enables people to prepare adequately for their exams online, keeps a record of student's experience and comments which is then displayed to other users.
+E-library is a web based application that enables people to prepare adequately for their exams online, keeps a record of student's experience and comments which is then displayed to other users.
 
 Thus allowing for an iterative process that uses user feedback to enable other users prepare for their exam.
 
